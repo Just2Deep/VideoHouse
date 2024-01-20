@@ -1,61 +1,52 @@
-# Backend Project
+# VideoHouse: A Node.js-Powered Video sharing platform
 
-This project covers all basic and intermediate concepts of a backend project using Javascript/TypeScript
+Database Models [Link](https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj) for this project.
 
-Models [Link](https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj) for this project.
+Welcome to VideoHouse, a cutting-edge video-sharing platform built on the robust Node.js framework. This Video sharing platform is designed to provide content creators and viewers with a seamless and feature-rich experience, incorporating industry-standard practices for optimal performance and security.
 
-## Setting up the project locally
+## Features
 
-### Setting up the Backend
+1. **Node.js Foundation**: Enjoy high performance and efficiency with VideoHouse's foundation built on Node.js, enabling real-time interactions and a smooth user experience.
 
-1. Fork and Clone the Repository
+2. **Video Upload and Streaming**: Effortlessly upload and share videos, while viewers enjoy a seamless streaming experience with adaptive video playback.
 
-```
-git clone https://github.com/{username}/NodeAsBackend.git
-```
+3. **User Authentication and Authorization**: Prioritize security with robust user authentication and authorization mechanisms to safeguard accounts and sensitive information.
 
-2. Navigate to the Backend Directory
+4. **Search and Discovery**: Easily discover new content through a sophisticated search.
 
-```node
-cd ch05
-```
+5. **Social Features**: Foster community engagement with features like likes, comments, and community posts(tweets), creating a vibrant online community.
 
-3. Install Required Dependencies
+6. **Subscription Model**: Users can subscribe to your favorite channels, ensuring they stay updated on the latest uploads.
 
-```
-npm i
-```
+7. **Dashboard**: Empower content creators with insights through an analytics dashboard that provides valuable data on video performance, and engagement metrics.
 
-4. Start the Backend Server
+8. **Scalability**: Designed to scale effortlessly, VideoHouse accommodates a growing user base and increasing content library without compromising performance.
 
-```
-npm run dev
-```
+## Getting Started
 
-### API endpoints
+To get started with VideoHouse, follow these steps:
 
-### Users
+1.  **Clone the Repository**:
 
--   register
--   login
--   refresh token
--   change password
--   me
--   update account
--   update cover
--   update avatar
--   get channel profile
--   get watch history
+    ```bash
+    git clone https://github.com/Just2Deep/VideoHouse.git
 
-### Subscriptions (/subscriptions)
+    ```
 
--   subscribe
--   unsubscribe
+2.  **Install Dependencies:**
 
-### Tweets (/tweets)
+    ```bash
+    npm install
+    ```
 
--   create new tweet
--   update tweet
--   delete tweet
--   get tweet
--   get all tweets by user
+3.  **Configure Environment Variables:**
+
+        Create a .env file in the root directory.
+        Set up necessary environment variables, including database credentials, API keys, and other configuration details. Use sample.env as a template.
+
+4.  **Run the Application:**
+    ```bash
+    npm run dev
+    ```
+
+Feel free to explore, contribute, and make VideoHouse your own! 🎉
